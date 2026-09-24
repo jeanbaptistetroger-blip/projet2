@@ -5,59 +5,140 @@
 </head>
 <body>
 	<header>
-	<h1>Inscription d'un nouveau client</h1>
+	<h1 align="center">Inscription d'un nouveau client</h1>
 	</header>
 
-	<section>
-		<form>
-			<label> Nom</label>
-				<input type="text" name="Nom"><br>
-			<label>Date de naissance</label>
-				<input type="Date" name="Date naissance"><br>
-			<label>Age</label>
-				<input type="Number" name="n1"><br>
-			<label>email</label>
-				<input type="email" name="email" placeholder="Tapez votre email"><br>
+<section>
+	<form>
+		<table border="1" width="70%">
+			
+			<tr> <td> <label> Nom</label>
+            </td>
+				<td><input type="text" name="Nom">
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>Date de naissance</label>
+                </td>
+				<td>
+                    <input type="Date" name="Date naissance">
+                </td>
+            </tr>
+            <br>
+			<tr>
+                <td>
+                    <label>Age</label>
+                </td>
+				<td>
+                    <input type="Number" name="n1">
+                </td>
+                <br>
+			<tr>
+                <td>
+                    <label>email</label>
+                </td>
+				<td>
+                    <input type="email" name="email" placeholder="Tapez votre email">
+                </td>
+            </tr>
 		
 
-			<label>Mot de passe</label>
-				<input type="password" name="mdp"><br>
-			<label>Numéro de permis</label>
-				<input type="text" name="permis"><br>
-			<label>Ancienneté</label>
-				<input type="Number" name="anciennete" min="0" max="80"><br>
-				<select>
+			<tr>
+                <td>
+                    <label>Mot de passe</label></td>
+				<td>
+                    <input type="password" name="mdp">
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>Numéro de permis</label>
+                </td>
+				<td>
+                    <input type="text" name="permis">
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>Ancienneté</label>
+                </td>
+				<td>
+                    <input type="Number" name="anciennete" min="0" max="80">
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>Ville</label>
+                </td>
+                    <td>
+                        <select>
 					<option>Paris</option>
 					<option>Nantes</option>
 					<option>Orléans</option>
 					<option>Versailles</option>
 					<option>Créteil</option>
-					<option>Rouen</option><br>
-					</select><br
-			<label>Adresse du Client</label><br>
-				<textarea id="adresse" name="adresse" rows="4" cols="30"></textarea><br>
+					<option>Rouen</option>
+					</select>
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>Adresse du Client</label>
+                </td>
+				<td>
+                    <textarea id="adresse" name="adresse" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
 
-			SLAM<label>Spécialité</label>
-			SISR<input type="radio" name="r1">
+			<tr>
+                <td>
+                    SLAM<label>Spécialité</label>
+                </td>
+			     <td>
+                    SISR<input type="radio" name="r1">
+                </td>
+            </tr>
 
-			<label>Hobbies</label>
-				Lecture <input type="checkbox" name="c1">
+			<tr>
+                <td>
+                    <label>Hobbies</label></td>
+				<td>
+                    Lecture <input type="checkbox" name="c1">
 				Sport <input type="checkbox" name="c2">
-				Musique<input type="checkbox" name="c3"><b>
-			<p>Situation matrimoniale</p>
-			<label>Marié</label>
+				Musique<input type="checkbox" name="c3">
+            </td>
+        </tr>
+			<tr>
+                <td>
+                    <p>Situation matrimoniale</p>
+                </td>
+			<td><label>Marié</label>
 				<input type="radio" name="marié" value="oui">
 			<label>non marié</label>
-				<input type="radio" name="marié" value="non"><br>
-		<p>Préférence de voiture</p>
-			<label>Automatique</label>
+				<input type="radio" name="marié" value="non">
+            </td>
+        </tr>
+
+		<tr>
+            <td>
+                <p>Préférence de voiture</p></td>
+			
+                <td>
+                    <label>Automatique</label>
 				<input type="checkbox" name="preference_auto" value="automatique">
 			<label>Manuelle</label>
-				<input type="checkbox" name="preference_manuelle" value="manuelle"><br>
+				<input type="checkbox" name="preference_manuelle" value="manuelle">
+            </td>
+        </tr>
+				
 
-				<input type="submit" name="" value="Valider">
+				<tr>
+                    <td>
+                        <input type="submit" name="" value="Valider">
 				<input type="reset" name="" value="Annuler">
-
+            </td>
+        </tr>
 		</form>
 	</section>
 	<footer>
