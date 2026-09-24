@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription d'un nouveau client</title>
+</head>
+<body>
+
+    <!-- Titre principal -->
+    <h1 align="center">Inscription d'un nouveau client</h1>
+
+    <form action="" method="POST">
+        <!-- Tableau principal pour structurer tout le formulaire -->
+        <table cellpadding="8" cellspacing="0" border="0" width="600">
+            
+            <tr>
+                <td width="40%"><b>Nom</b></td>
+                <td><input type="text" name="nom" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Date de naissance</b></td>
+                <td><input type="date" name="naissance"></td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td><input type="number" name="age" min="0" style="width: 50px;"></td>
+            </tr>
+            <tr>
+                <td><b>email</b></td>
+                <td><input type="email" name="email" placeholder="Tapez votre email" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Mot de passe</b></td>
+                <td><input type="password" name="mdp" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Numéro de permis</b></td>
+                <td><input type="text" name="permis" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Ancienneté</b></td>
+                <td><input type="text" name="anciennete" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Ville</b></td>
+                <td>
+                    <select name="ville">
+                        <option value="Paris">Paris</option>
+                        <option value="Lyon">Lyon</option>
+                        <option value="Marseille">Marseille</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Adresse du Client</b></td>
+                <td><textarea name="adresse" rows="4" cols="32"></textarea></td>
+            </tr>
+
+            <!-- Séparateur visuel en ligne de tableau -->
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+
+            <!-- Choix et Spécialités -->
+            <tr>
+                <td><b>Spécialité & Hobbies</b></td>
+                <td>
+                    <input type="checkbox" name="sisr"> SLAMSpécialité SISR &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lecture"> Hobbies Lecture <br><br>
+                    <input type="checkbox" name="sport"> Sport &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="musique"> Musique
+                </td>
+            </tr>
+
+            <!-- Situation matrimoniale -->
+            <tr>
+                <td><b>Situation matrimoniale</b></td>
+                <td>
+                    <input type="radio" name="situation" value="marie"> Marié &nbsp;&nbsp;
+                    <input type="radio" name="situation" value="non_marie"> non marié
+                </td>
+            </tr>
+
+            <!-- Préférence de voiture -->
+            <tr>
+                <td><b>Préférence de voiture</b></td>
+                <td>
+                    <input type="radio" name="voiture" value="auto"> Automatique &nbsp;&nbsp;
+                    <input type="radio" name="voiture" value="manuelle"> Manuelle
+                </td>
+            </tr>
+
+            <!-- Séparateur avant les boutons -->
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+
+            <!-- Boutons de validation -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Valider"> &nbsp;&nbsp;
+                    <input type="reset" value="Annuler">
+                </td>
+            </tr>
+
+            <!-- Mention de l'agence -->
+            <tr>
+                <td colspan="2" align="center">
+                    <br>
+                    <small><i>mention de l'agence</i></small>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
