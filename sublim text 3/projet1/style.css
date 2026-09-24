@@ -1,0 +1,13 @@
+h1 {
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+}
+a {
+	font-size: 30px;
+}
+button {
+	padding: 20px 30px;
+	border-radius: 10px;
+	display: flex;
+}
