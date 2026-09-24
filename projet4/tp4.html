@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+</head>
+<body>
+	<header>
+	<h1>Inscription d'un nouveau client</h1>
+	</header>
+
+	<section>
+		<form>
+			<label> Nom</label>
+				<input type="text" name="Nom"><br>
+			<label>Date de naissance</label>
+				<input type="Date" name="Date naissance"><br>
+			<label>Age</label>
+				<input type="Number" name="n1"><br>
+			<label>email</label>
+				<input type="email" name="email" placeholder="Tapez votre email"><br>
+		
+
+			<label>Mot de passe</label>
+				<input type="password" name="mdp"><br>
+			<label>Numéro de permis</label>
+				<input type="text" name="permis"><br>
+			<label>Ancienneté</label>
+				<input type="Number" name="anciennete" min="0" max="80"><br>
+				<select>
+					<option>Paris</option>
+					<option>Nantes</option>
+					<option>Orléans</option>
+					<option>Versailles</option>
+					<option>Créteil</option>
+					<option>Rouen</option><br>
+					</select><br
+			<label>Adresse du Client</label><br>
+				<textarea id="adresse" name="adresse" rows="4" cols="30"></textarea><br>
+
+			SLAM<label>Spécialité</label>
+			SISR<input type="radio" name="r1">
+
+			<label>Hobbies</label>
+				Lecture <input type="checkbox" name="c1">
+				Sport <input type="checkbox" name="c2">
+				Musique<input type="checkbox" name="c3"><b>
+			<p>Situation matrimoniale</p>
+			<label>Marié</label>
+				<input type="radio" name="marié" value="oui">
+			<label>non marié</label>
+				<input type="radio" name="marié" value="non"><br>
+		<p>Préférence de voiture</p>
+			<label>Automatique</label>
+				<input type="checkbox" name="preference_auto" value="automatique">
+			<label>Manuelle</label>
+				<input type="checkbox" name="preference_manuelle" value="manuelle"><br>
+
+				<input type="submit" name="" value="Valider">
+				<input type="reset" name="" value="Annuler">
+
+		</form>
+	</section>
+	<footer>
+		<p>mention de l'agence</p>
+	</footer>
+</body>
+</html>
