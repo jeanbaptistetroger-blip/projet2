@@ -3,20 +3,32 @@
 <head>
 	<title>Inscription</title>
 </head>
-<body>
+<body bgcolor="grey">
+
 	<header>
-	<h1 align="center">Inscription d'un nouveau client</h1>
+
+	   <h1 align="center">Inscription d'un nouveau client</h1>
+
 	</header>
 
 <section>
+
 	<form>
-		<table border="1" width="70%">
+
+		<table border="1" width="50%" align="center">
 			
-			<tr> <td> <label> Nom</label>
-            </td>
-				<td><input type="text" name="Nom">
+			<tr> 
+                <td>
+                    <label> Nom</label>
                 </td>
+
+				<td>
+
+                    <input type="text" name="Nom">
+                </td>
+
             </tr>
+
 			<tr>
                 <td>
                     <label>Date de naissance</label>
@@ -25,7 +37,6 @@
                     <input type="Date" name="Date naissance">
                 </td>
             </tr>
-            <br>
 			<tr>
                 <td>
                     <label>Age</label>
@@ -71,14 +82,14 @@
                 <td>
                     <label>Ville</label>
                 </td>
-                    <td>
-                        <select>
-					<option>Paris</option>
-					<option>Nantes</option>
-					<option>Orléans</option>
-					<option>Versailles</option>
-					<option>Créteil</option>
-					<option>Rouen</option>
+                <td>
+                    <select>
+					   <option>Paris</option>
+					   <option>Nantes</option>
+					   <option>Orléans</option>
+					   <option>Versailles</option>
+					   <option>Créteil</option>
+					   <option>Rouen</option>
 					</select>
                 </td>
             </tr>
@@ -93,10 +104,11 @@
 
 			<tr>
                 <td>
-                    SLAM<label>Spécialité</label>
+                    <label>Spécialité</label>
                 </td>
 			     <td>
-                    SISR<input type="radio" name="r1">
+                    SISR<input type="radio" name="sisr">
+                    SLAM<input type="radio" name="slam">
                 </td>
             </tr>
 
@@ -104,11 +116,11 @@
                 <td>
                     <label>Hobbies</label></td>
 				<td>
-                    Lecture <input type="checkbox" name="c1">
-				Sport <input type="checkbox" name="c2">
-				Musique<input type="checkbox" name="c3">
-            </td>
-        </tr>
+                    Lecture <input type="checkbox" name="lecture">
+				    Sport <input type="checkbox" name="sport">
+				    Musique<input type="checkbox" name="musique">
+                </td>
+            </tr>
 			<tr>
                 <td>
                     <p>Situation matrimoniale</p>
@@ -140,9 +152,12 @@
             </td>
         </tr>
 		</form>
+    </table>
 	</section>
-	<footer>
-		<p>mention de l'agence</p>
-	</footer>
+<footer>
+	<p>mention de l'agence</p>
+</footer>
+
 </body>
+
 </html>
