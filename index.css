@@ -1,9 +1,9 @@
-h1 {
-	color: blue
-}
 button {
-	display: flex;
-	margin: 5;
-	gap:15px;
-	border-radius:10px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 15px;
+    background-color: #5f78
+}
+body {
+    background-color: 456
 }
