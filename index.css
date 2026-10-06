@@ -1,9 +1,10 @@
 button {
     flex-direction: column;
-    display: flex;
+    display: flex;    
     border-radius: 15px;
-    background-color: #5f78
+    background-color: #5f78;
+    margin: 5px;
 }
 body {
-    background-color: 456
+    background-color: #456
 }
