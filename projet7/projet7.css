@@ -1,0 +1,35 @@
+body {
+	background-color: grey;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.h1 {
+	background-color: blue;
+	height: 50px;
+	width:100%;
+	margin: auto;
+	
+}
+.p1{
+	height: 150px;
+	width:80%;
+	background-color: green;
+	border: 2px solid red;
+	border-radius: 20px;
+  margin: auto;
+}
+.p2 {
+	background-color: orange;
+	border:2px solid blue;
+	width:80%;
+	height: 180px;
+	border-radius: 20px;
+  margin: auto;
+}
+.h2, .h3, .h4 {
+	max-width: 30%;
+	background-color: pink;
+	font-size: 20px;
+	margin:auto;
+}
