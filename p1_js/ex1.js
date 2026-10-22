@@ -31,10 +31,10 @@ function verifierAge() {
   let n1 = prompt("Donnez votre âge : ");
 
   if (n1 < 18) {
-    document.write("Vous êtes mineur");
+    document.getElementById("message").textContent = "Vous êtes mineur";
     document.body.style.backgroundColor = "red";
   } else {
-    document.write("Vous êtes majeur");
+    document.getElementById("message").textContent = "Vous êtes majeur";
     document.body.style.backgroundColor = "green";
   }
 }
