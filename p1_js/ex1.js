@@ -38,3 +38,13 @@ function verifierAge() {
     document.body.style.backgroundColor = "green";
   }
 }
+function notes() {
+  let note1 = prompt("Entrez la première note : ");
+  let note2 = prompt("Entrez la deuxième note : ");
+  let note3 = prompt("Entrez la troisième note : ");
+
+  let moyenne = (parseFloat(note1) + parseFloat(note2) + parseFloat(note3)) / 3;
+
+  document.getElementById("message").textContent =
+    "Votre moyenne est : " + moyenne.toFixed(2);
+}
