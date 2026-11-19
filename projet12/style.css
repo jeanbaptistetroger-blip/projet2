@@ -1,0 +1,9 @@
+body {
+	background-color:#C1C1C1;
+	font-style: Arial;
+}
+a {
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+}
